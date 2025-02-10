@@ -1,0 +1,106 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 235, 198);
+    text-align: center;
+}
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: rgb(98, 21, 21);
+    float: left;
+    padding-left: 10px;
+    font-family:cursive;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: burlywood;
+    border-bottom: 3px solid brown;
+}
+.nav_links ul{
+    list-style: none;
+    color: brown;
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+    align-items: center;
+    padding-right: 13px;
+    font-weight: 400;
+    font-family: cursive;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) ,url(./img/HD-wallpaper-coffee-beans-texture-close-up-arabica-brown-backgrounds-macro-natural-coffee-background-with-coffee-coffee-textures-coffee-backgrounds-coffee-beans-coffee-arabica-beans.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid rgb(255, 239, 215);
+} 
+
+.text h1, .text h2{
+    color: rgb(255, 239, 215);
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 10px;
+    font-style: italic;
+    text-decoration:underline brown;
+}
+.text{
+    margin-top: 17%;
+}
+#locations{
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+#locations h2{
+    margin-top: 1.5%;
+    font-size: 2.5rem;
+    padding-bottom: 2%;
+    background-color: bisque;
+    border-radius: 95%;
+}
+.location_boxes{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+.location{
+    width: 30%;
+    height:110%;
+    background-image: url(./img/How-to-Make-Your-Cafe-Special-683x1024.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.location h3,.location p{
+    font-size: 30px;
+    color: white;
+}
+footer {
+    background-color: wheat;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+}
+#phone {
+    margin-top: 5%;
+    text-align: left;
+}
+footer h2 {
+    font-size: 40px;
+}
+footer h5{
+    font-size: 30px;
+}
